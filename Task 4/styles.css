@@ -1,0 +1,158 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    background-color: #d4d44f;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Main Image Section */
+.main-image {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.main-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 50px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: justify;
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Qualities Section */
+.qualities {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.qualities h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.qualities ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.qualities ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Achievements Section */
+.achievements {
+    background-color: #fff;
+    padding: 50px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.achievements h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.achievements p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.achievements ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Inspirational Quotes Section */
+.quotes {
+    background-color: #89c3c6;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.quotes h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
